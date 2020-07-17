@@ -13,7 +13,7 @@ case $::kernelmajversion {
           path   => 'HKLM:\SOFTWARE\Policies\Microsoft\W32time\TimeProviders\NtpClient\SpecialPollInterval',
           type   => dword,
           data   => 600,
-        } notify { 'Updated Idle Time as per ISCC Sandards':}
+        } notify { 'Updated Idle Time as per ISCC Standards':}
     }
   }
   default: {
